@@ -48,5 +48,5 @@ Suggests:
 VignetteBuilder: knitr
 RoxygenNote: 5.0.1
 
-### Dependencies Temporarily Removed ###
+# ### Dependencies Temporarily Removed ###
 # rgdal (>= 1.1)
