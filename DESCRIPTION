@@ -46,5 +46,6 @@ Suggests:
   testthat,
   knitr,
   rmarkdown
+Remotes: url::https://cran.r-project.org/src/contrib/Archive/rgdal/rgdal_1.6-7.tar.gz
 VignetteBuilder: knitr
 RoxygenNote: 5.0.1
