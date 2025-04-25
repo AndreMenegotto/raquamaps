@@ -182,6 +182,7 @@ get_am_nativerangemap_uris <- function(am_identifier) {
   re <- "href='(.*?pre[mM]ap.php?.*?)'"
   hits <- unlist(stringr::str_extract_all(htm, re))
   href <- gsub(re, "\\1", hits)
+  href <- sub("^.*?\\.org", "http://www.aquamaps.org", href) ##AM
   
   # extract refresh Content = urls
   re <- "Content='0; URL=(.*?pre[mM]ap.php?.*?)'"
