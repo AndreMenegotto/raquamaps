@@ -22,7 +22,6 @@ Imports:
     foreign (>= 0.8),
     raster (>= 2.5),
     sp (>= 1.2),
-    #rgdal (>= 1.1),
     classInt (>= 0.1),
     rgbif (>= 0.9),
     leaflet (>= 1.0.0),
@@ -46,8 +45,8 @@ Suggests:
   testthat,
   knitr,
   rmarkdown
-#Remotes:
-#  url::https://cran.r-project.org/src/contrib/Archive/sp/sp_2.1-4.tar.gz,
-#  url::https://cran.r-project.org/src/contrib/Archive/rgdal/rgdal_1.6-7.tar.gz
 VignetteBuilder: knitr
 RoxygenNote: 5.0.1
+
+### Dependencies Temporarily Removed ###
+# rgdal (>= 1.1)
