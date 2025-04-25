@@ -47,7 +47,7 @@ Suggests:
   knitr,
   rmarkdown
 Remotes:
-  edzer/sp,
+  url::https://cran.r-project.org/src/contrib/Archive/sp/sp_2.1-4.tar.gz,
   url::https://cran.r-project.org/src/contrib/Archive/rgdal/rgdal_1.6-7.tar.gz
 VignetteBuilder: knitr
 RoxygenNote: 5.0.1
