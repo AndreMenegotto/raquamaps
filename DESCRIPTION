@@ -47,6 +47,3 @@ Suggests:
   rmarkdown
 VignetteBuilder: knitr
 RoxygenNote: 5.0.1
-
-# ### Dependencies Temporarily Removed ###
-# rgdal (>= 1.1)
